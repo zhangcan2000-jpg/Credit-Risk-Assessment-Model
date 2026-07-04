@@ -27,7 +27,7 @@ st.set_page_config(
 )
 
 from core.predictor import predict, get_model
-from core.config import (
+from system.core.config import (
     SYSTEM_NAME, ORGANIZATION, RESPONSIBLE,
     HISTORY_DIR, CROP_SUBSIDY_RATE, CROP_REVENUE_RATE
 )
