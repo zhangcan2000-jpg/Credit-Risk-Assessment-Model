@@ -20,7 +20,7 @@ except (ValueError, AttributeError, io.UnsupportedOperation):
     pass
 
 import streamlit as st
-from core.config import (
+from system.core.config import (
     SYSTEM_FULL_NAME, SYSTEM_NAME, SYSTEM_VERSION,
     ORGANIZATION, DEVELOPER, RESPONSIBLE,
     COMPETITION, TRACK, PROJECT_NAME
