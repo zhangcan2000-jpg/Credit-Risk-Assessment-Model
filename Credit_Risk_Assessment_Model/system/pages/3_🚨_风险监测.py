@@ -28,7 +28,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-from core.config import HISTORY_DIR
+from system.core.config import HISTORY_DIR
 
 
 # ===== 客户信息脱敏 =====
