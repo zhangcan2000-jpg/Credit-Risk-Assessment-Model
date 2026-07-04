@@ -25,7 +25,7 @@ from system.core.config import (
     ORGANIZATION, DEVELOPER, RESPONSIBLE,
     COMPETITION, TRACK, PROJECT_NAME
 )
-from core.predictor import load_metrics, load_real_metrics
+from system.core.predictor import load_metrics, load_real_metrics
 
 # ===== 页面配置 =====
 st.set_page_config(
