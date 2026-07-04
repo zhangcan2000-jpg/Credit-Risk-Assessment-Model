@@ -26,7 +26,7 @@ st.set_page_config(
 )
 
 from core.predictor import predict_batch
-from core.config import UPLOAD_DIR, HISTORY_DIR
+from system.core.config import UPLOAD_DIR, HISTORY_DIR
 
 
 # CSV 模板列名（中文） → 内部字段名（英文）
