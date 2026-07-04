@@ -26,7 +26,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-from core.predictor import predict, get_model
+from system.core.predictor import predict, get_model
 from system.core.config import (
     SYSTEM_NAME, ORGANIZATION, RESPONSIBLE,
     HISTORY_DIR, CROP_SUBSIDY_RATE, CROP_REVENUE_RATE
