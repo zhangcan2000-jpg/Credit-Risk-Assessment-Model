@@ -25,7 +25,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-from core.predictor import predict_batch
+from system.core.predictor import predict_batch
 from system.core.config import UPLOAD_DIR, HISTORY_DIR
 
 
