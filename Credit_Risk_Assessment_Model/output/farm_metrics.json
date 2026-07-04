@@ -1,0 +1,73 @@
+{
+  "auc": 0.9579,
+  "ks": 0.7949,
+  "best_iteration": 340,
+  "tier_stats": [
+    {
+      "风险等级": "中风险",
+      "样本数": 227,
+      "样本占比%": 5.68,
+      "实际违约率%": 37.0,
+      "模型预测均值": 0.333,
+      "差异化措施": "担保增信 / 抵质押 / 分批放款 / 动态月度监测"
+    },
+    {
+      "风险等级": "低风险",
+      "样本数": 3605,
+      "样本占比%": 90.12,
+      "实际违约率%": 1.83,
+      "模型预测均值": 0.017,
+      "差异化措施": "纯信用贷 / 利率下浮10% / 额度上浮30% / T+1放款绿色通道"
+    },
+    {
+      "风险等级": "高风险",
+      "样本数": 168,
+      "样本占比%": 4.2,
+      "实际违约率%": 71.43,
+      "模型预测均值": 0.724,
+      "差异化措施": "限额管理 / 人工复核 / 贷后密集监测 / 拒贷或压缩额度"
+    }
+  ],
+  "top_features": [
+    {
+      "feature": "overdue_count_history",
+      "importance": 19220.016886770725
+    },
+    {
+      "feature": "weather_score",
+      "importance": 13295.894210644066
+    },
+    {
+      "feature": "price_change",
+      "importance": 5542.643841594458
+    },
+    {
+      "feature": "subsidy_stable",
+      "importance": 5434.849237293005
+    },
+    {
+      "feature": "loan_income_ratio",
+      "importance": 5324.119904523715
+    },
+    {
+      "feature": "true_income",
+      "importance": 4702.757616721094
+    },
+    {
+      "feature": "area_diff_ratio",
+      "importance": 4633.293638288975
+    },
+    {
+      "feature": "is_drought_year",
+      "importance": 3245.949887573719
+    },
+    {
+      "feature": "true_area",
+      "importance": 2310.362492620945
+    },
+    {
+      "feature": "crop",
+      "importance": 2111.6374429166317
+    }
+  ]
+}

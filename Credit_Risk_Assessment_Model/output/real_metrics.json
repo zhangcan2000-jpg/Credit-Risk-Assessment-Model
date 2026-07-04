@@ -1,0 +1,93 @@
+{
+  "数据集": "Home Credit Default Risk (Kaggle 真实公开数据)",
+  "样本量": 307511,
+  "违约率": 0.0807,
+  "auc": 0.7916,
+  "ks": 0.4423,
+  "best_iteration": 1413,
+  "tier_stats": [
+    {
+      "风险等级": "低风险",
+      "样本数": 42636,
+      "样本占比%": 69.32,
+      "实际违约率%": 3.37,
+      "差异化措施": "纯信用贷 / 利率下浮10% / 额度上浮30% / T+1放款绿色通道"
+    },
+    {
+      "风险等级": "中风险",
+      "样本数": 13285,
+      "样本占比%": 21.6,
+      "实际违约率%": 13.02,
+      "差异化措施": "担保增信 / 抵质押 / 分批放款 / 动态月度监测"
+    },
+    {
+      "风险等级": "高风险",
+      "样本数": 5582,
+      "样本占比%": 9.08,
+      "实际违约率%": 32.23,
+      "差异化措施": "限额管理 / 人工复核 / 贷后密集监测 / 拒贷或压缩额度"
+    }
+  ],
+  "top_features": [
+    {
+      "feature": "EXT_SOURCE_3",
+      "importance": 110025.45459884405
+    },
+    {
+      "feature": "EXT_SOURCE_2",
+      "importance": 105975.02041393518
+    },
+    {
+      "feature": "EXT_SOURCE_1",
+      "importance": 37600.67106384039
+    },
+    {
+      "feature": "CREDIT_TERM",
+      "importance": 25330.84817582369
+    },
+    {
+      "feature": "DAYS_BIRTH",
+      "importance": 18519.292836606503
+    },
+    {
+      "feature": "PREV_DAYS_LAST_DUE_1ST_VERSION_max",
+      "importance": 11481.921656548977
+    },
+    {
+      "feature": "INSTAL_DPD_mean",
+      "importance": 10783.866693496704
+    },
+    {
+      "feature": "INSTAL_PAYMENT_RATIO_mean",
+      "importance": 10303.36287856102
+    },
+    {
+      "feature": "AMT_ANNUITY",
+      "importance": 10120.220250606537
+    },
+    {
+      "feature": "CODE_GENDER",
+      "importance": 9663.120972633362
+    },
+    {
+      "feature": "CC_CNT_DRAWINGS_ATM_CURRENT_mean",
+      "importance": 9646.317495822906
+    },
+    {
+      "feature": "BUREAU_DAYS_CREDIT_max",
+      "importance": 8857.602205634117
+    },
+    {
+      "feature": "INSTAL_AMT_PAYMENT_sum",
+      "importance": 8596.20515203476
+    },
+    {
+      "feature": "AMT_GOODS_PRICE",
+      "importance": 8136.165023803711
+    },
+    {
+      "feature": "NAME_EDUCATION_TYPE",
+      "importance": 7579.311524629593
+    }
+  ]
+}
